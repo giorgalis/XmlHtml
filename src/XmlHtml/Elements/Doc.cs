@@ -7,6 +7,7 @@ namespace XmlHtml
     {
         [XmlElement(ElementName = "assembly")]
         public Assembly Assembly { get; set; }
+
         [XmlElement(ElementName = "members")]
         public Members Members { get; set; }
     }
